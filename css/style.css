@@ -1,0 +1,295 @@
+/* --------------media queries-----------------*/
+
+/*media screen and (min-width: 400px) {
+  #header{
+  width: 100%;
+  height: 10%;
+  color: white;
+  position: fixed;
+  margin-top: 30px;
+  float: left;
+  margin-top: 30px;
+
+  }
+  #logo{
+    font-size: 1em;
+  }
+
+  nav li a{
+    font-size: 1em;
+  }
+
+  #slide1{
+    background-size: 100%;
+    background-image: cover;
+  }
+
+  #slide2, #slide4{
+    min-height: 100%;
+  }
+
+  #slide3 .projects{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 450px;
+    height: 400px;
+  }
+  footer{
+    text-align: left;
+  }
+
+  }
+
+
+
+
+
+
+@media screen and (min-width: 800px) {*/
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1{
+  font-family: "Arvo";
+  font-weight: normal;
+  font-size: 55px;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.name{
+  color: orange;
+}
+
+.nepal{
+  color: red;
+}
+
+.bk{
+  color: green;
+}
+
+.description{
+  font-family: "Arvo";
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.description2{
+  font-family: "Arvo";
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.skills{
+  font-family: "Arvo";
+  font-weight: normal;
+  font-size: 38px;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+// includes the positioning of the elements on screen as well as the container of each slide.
+.center { margin: 0 auto; }
+/*.content{ margin: 0 auto; width: 960px; }
+*/.clear { clear: both; }
+
+#header{
+  width: 100%;
+  height: 11%;
+  color: black;
+  position: fixed;
+  float: left;
+  margin-top: 25px;
+}
+
+#logo a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+  font-family:"Arvo";
+  text-decoration: none;
+  display: inline-flex;
+  margin: 0 auto;
+  padding-left: 50px;
+  float: right;
+
+}
+
+#logo a:hover{
+  color: orange;
+}
+
+
+#nav{
+  float: left;
+}
+
+#nav ul{
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#nav li{
+  float:left;
+  padding-right: 10px;
+  margin-right: 2em;
+  display: block;
+}
+
+#nav li a{
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Arvo";
+}
+
+
+#nav li a:hover{
+  color: black;
+  opacity: 1;
+}
+
+#nav li a:link, a:visited {
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav li a:hover, a:active {
+    border: 2px solid #4FFEFF;
+}
+
+
+#slide1, #slide2, #slide3, #slide4{
+  width: 100%;
+}
+
+#slide1{
+  background:url('../images/art.jpg') 50% 0 no-repeat fixed;
+  background-size: cover;
+  height: 600px;
+  margin: 0;
+  padding: 100px 0;
+
+}
+
+#slide2{
+  background-color: white;
+  color: black;
+  height: 100vh;
+  overflow: hidden;
+  padding: 200px 0 0 0;
+  background-size: cover;
+  background-position: center
+}
+
+#slide3{
+  background-color: #C5CDD0;
+  color: black;
+  height: 600px;
+  padding: 200px 0 0 0;
+  background-size: cover;
+}
+
+#slide4{
+  background-color: white;
+  color: black;
+  height: 100vh;
+  padding: 0 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.contact h1{
+  color: #4FFEFF;
+}
+
+.email{
+  color:inherit;
+  text-decoration: none;
+  color: white;
+  font-family: 'Arvo', serif;
+  font-weight: normal;
+  font-size: 60px;
+  margin: 0 auto;
+}
+
+.email a:link{
+  text-decoration: none;
+  color: orange;
+}
+
+.email a:hover, a:active{
+  color: white;
+}
+
+#footer{
+  background-color: #C3CFD1;
+  color: black;
+  height: 5%;
+  width: 100%;
+  display: inline-block;
+}
+
+footer p{
+  padding-top: 15px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: "Arvo";
+  color: black;
+  float: left;
+}
+
+footer .container a i{
+  padding-top: 20px;
+  padding-right: 30px;
+  float: right;
+  color: white;
+}
+
+footer .container a i:hover{
+  color: orange;
+}
+
+
+.activator{
+  width: 325px;
+  height: 225px;
+  word-spacing: 10px;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects a{
+  margin: 0 2% 0 2%;
+}
+
+
+
+
