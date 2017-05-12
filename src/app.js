@@ -62,6 +62,12 @@ $(".bk").hover(function(){
     $("#slide2").css({"background-color": "white"});
   });
 
+$(".name").hover(function(){
+    $("#slide2").css('background-image', "url('images/Rome.jpg')");
+  }, function(){
+    $("#slide2").css({"background-color": "white"});
+  });
+
 });
 
 //this part, when the user clicks the menu link, it will remove the class active on that
