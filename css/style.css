@@ -195,14 +195,26 @@ h1{
 }
 
 #slide2{
+  height: 100vh;
+  padding: 0 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+
+}
+
+/*
+#slide2{
   background-color: white fixed;
   color: black;
-  height: 600px;
+  height: 100vh;
   overflow: hidden;
   padding: 200px 0 0 0;
   background-size: cover;
   background-position: center
-}
+}*/
+
 
 #slide3{
   background-color: #C5CDD0;
