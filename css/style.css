@@ -195,9 +195,9 @@ h1{
 }
 
 #slide2{
-  background-color: white;
+  background-color: white fixed;
   color: black;
-  height: 100vh;
+  height: 600px;
   overflow: hidden;
   padding: 200px 0 0 0;
   background-size: cover;
