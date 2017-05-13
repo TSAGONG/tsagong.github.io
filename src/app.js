@@ -63,7 +63,7 @@ $(".bk").hover(function(){
   });
 
 $(".name").hover(function(){
-    $("#slide2").css('background-image', "url('images/rome.jpg')");
+    $("#slide2").css('background-image', "url('images/Rome.jpg')");
   }, function(){
     $("#slide2").css({"background-color": "white"});
   });
