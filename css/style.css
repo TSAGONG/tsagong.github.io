@@ -1,145 +1,9 @@
-/* --------------media queries-----------------*/
-
-/*media screen and (min-width: 400px) {
-  #header{
-  width: 100%;
-  height: 10%;
-  color: white;
-  position: fixed;
-  margin-top: 30px;
-  float: left;
-  margin-top: 30px;
-
-  }
-  #logo{
-    font-size: 1em;
-  }
-
-  nav li a{
-    font-size: 1em;
-  }
-
-  #slide1{
-    background-size: 100%;
-    background-image: cover;
-  }
-
-  #slide2, #slide4{
-    min-height: 100%;
-  }
-
-  #slide3 .projects{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    width: 450px;
-    height: 400px;
-  }
-  footer{
-    text-align: left;
-  }
-
-  }
-
-
-
-
-
-
-@media screen and (min-width: 800px) {*/
+/*--------Global-----------*/
 
 body{
   margin: 0;
   padding: 0;
   width: 100%;
-}
-
-h1{
-  font-family: "Arvo";
-  font-weight: normal;
-  font-size: 55px;
-  text-align: center;
-  color: black;
-  margin: 0;
-  padding: 0;
-}
-
-.name{
-  color: orange;
-}
-
-.nepal{
-  color: red;
-}
-
-.bk{
-  color: green;
-}
-
-.description{
-  font-family: "Arvo";
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  color: black;
-  margin: 0;
-  padding: 0;
-}
-.description2{
-  font-family: "Arvo";
-  font-weight: normal;
-  font-size: 40px;
-  text-align: center;
-  color: black;
-  margin: 0;
-  padding: 0;
-}
-
-.skills{
-  font-family: "Arvo";
-  font-weight: normal;
-  font-size: 38px;
-  text-align: center;
-  color: black;
-  margin: 0;
-  padding: 0;
-}
-
-// includes the positioning of the elements on screen as well as the container of each slide.
-.center { margin: 0 auto; }
-/*.content{ margin: 0 auto; width: 960px; }
-*/.clear { clear: both; }
-
-#header{
-  width: 100%;
-  height: 11%;
-  color: black;
-  position: fixed;
-  float: left;
-  margin-top: 25px;
-}
-
-#logo a{
-  color: #fff;
-  text-decoration: none;
-  font-size: 50px;
-  color: black;
-  font-family:"Arvo";
-  text-decoration: none;
-  display: inline-flex;
-  margin: 0 auto;
-  padding-left: 50px;
-  float: right;
-}
-
-#logo a:hover{
-  color: orange;
-}
-
-
-#nav{
-  float: left;
 }
 
 #nav ul{
@@ -150,7 +14,8 @@ h1{
 
 #nav li{
   float:left;
-  padding-right: 10px;
+  padding-top: 27px;
+  padding-right: 5px;
   margin-right: 2em;
   display: block;
 }
@@ -170,7 +35,6 @@ h1{
 
 #nav li a:link, a:visited {
     color: black;
-    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
 }
@@ -179,6 +43,80 @@ h1{
     border: 2px solid #4FFEFF;
 }
 
+.name{
+  color: orange;
+}
+
+.nepal{
+  color: red;
+}
+
+.bk{
+  color: green;
+}
+
+h1{
+  font-family: "Arvo";
+  font-weight: normal;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+
+.description{
+  font-family: "Arvo";
+  font-weight: normal;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.description2{
+  font-family: "Arvo";
+  font-weight: normal;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.skills{
+  font-family: "Arvo";
+  font-weight: normal;
+  text-align: center;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+// includes the positioning of the elements on screen as well as the container of each slide.
+.center { margin: 0 auto; }
+/*.content{ margin: 0 auto; width: 960px; }
+*/.clear { clear: both; }
+
+#header{
+  width: 100%;
+  height: 11%;
+  color: black;
+  position: fixed;
+  float: left;
+}
+
+#logo a{
+  color: #fff;
+  text-decoration: none;
+  color: black;
+  font-family:"Arvo";
+  text-decoration: none;
+  display: inline-flex;
+  float: right;
+}
+
+#logo a:hover{
+  color: orange;
+}
 
 #slide1, #slide2, #slide3, #slide4{
   width: 100%;
@@ -187,38 +125,23 @@ h1{
 #slide1{
   background:url('../images/art.jpg') 50% 0 no-repeat fixed;
   background-size: cover;
-  height: 600px;
+  height: 100vh;
   margin: 0;
   padding: 100px 0;
 }
 
 #slide2{
   height: 100vh;
-  padding: 0 0 0 0;
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
 }
 
-/*
-#slide2{
-  background-color: white fixed;
-  color: black;
-  height: 100vh;
-  overflow: hidden;
-  padding: 200px 0 0 0;
-  background-size: cover;
-  background-position: center
-}*/
-
-
 #slide3{
   background-color: #C5CDD0;
   color: black;
-  height: 600px;
-  padding: 200px 0 0 0;
-  background-size: cover;
+  height: 100vh;
 }
 
 #slide4{
@@ -241,7 +164,6 @@ div.contact h1{
   color: white;
   font-family: 'Arvo', serif;
   font-weight: normal;
-  font-size: 60px;
   margin: 0 auto;
 }
 
@@ -257,23 +179,23 @@ div.contact h1{
 #footer{
   background-color: #C3CFD1;
   color: black;
-  height: 5%;
+  height: 10%;
   width: 100%;
   display: inline-block;
 }
 
 footer p{
-  padding-top: 15px;
-  padding-left: 20px;
-  font-size: 20px;
+  padding-top: 20px;
+  padding-left: 5px;
   font-family: "Arvo";
   color: black;
   float: left;
+
 }
 
 footer .container a i{
   padding-top: 20px;
-  padding-right: 30px;
+  padding-right: 15px;
   float: right;
   color: white;
 }
@@ -284,19 +206,195 @@ footer .container a i:hover{
 
 
 .activator{
-  width: 325px;
-  height: 225px;
+  width: 375px;
+  height: 275px;
   word-spacing: 10px;
 }
 
 .projects {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 }
 
 .projects a{
   margin: 0 2% 0 2%;
+}
+
+/*---------------Media Queries--------------*/
+
+@media screen and (min-width: 375px) {
+
+#nav li{
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+
+  #nav li a {
+  font-size: 14px;
+}
+
+  h1{
+  font-size: 20px;
+}
+
+.title, .description, .description2{
+  font-size: 20px;
+}
+
+
+#slide3{
+  background-color: #C5CDD0;
+  color: black;
+  height: 100%;
+}
+
+.activator{
+  width: 250px;
+  height: 150px;
+  margin: 9px;
+}
+
+.email{
+  font-size: 28px;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+}
+
+footer .container a i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+
+@media screen and (min-width: 550px) {
+
+
+#nav li{
+  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+#nav li a {
+  font-size: 12px;
+}
+
+h1{
+  font-size: 25px;
+}
+
+.title, .description, .description2{
+  font-size: 25px;
+}
+
+#slide3{
+  height: 100%;
+}
+
+.activator{
+  width: 300px;
+  height: 200px;
+  margin: 9px;
+}
+
+.email{
+  font-size: 35px;
+}
+}
+
+@media screen and (min-width: 650px) {
+
+#nav li a {
+  font-size: 13px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.title, .description, .description2{
+  font-size: 30px;
+}
+
+#slide3{
+  height: 100%;
+}
+
+.activator{
+  width: 350px;
+  height: 250px;
+  margin: 9px;
+}
+
+.email{
+  font-size: 40px;
+}
+
+}
+
+@media screen and (min-width: 800px) {
+#nav li a {
+  font-size: 15px;
+}
+
+h1{
+  font-size: 35px;
+}
+
+.title, .description, .description2{
+  font-size: 32px;
+}
+
+#slide3{
+  height: 100%;
+}
+
+.activator{
+  width: 350px;
+  height: 250px;
+  margin: 9px;
+}
+
+.email{
+  font-size: 45px;
+}
+
+@media screen and (min-width: 960px) {
+
+#nav li a {
+  font-size: 18px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+.title, .description, .description2{
+  font-size: 40px;
+}
+
+#slide3{
+  height: 100%;
+}
+
+.activator{
+  width: 410px;
+  height: 310px;
+  margin: 9px;
+}
+
+.email{
+  font-size: 55px;
 }
 
 
