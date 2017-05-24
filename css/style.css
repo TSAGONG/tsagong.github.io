@@ -232,10 +232,21 @@ footer .container a i:hover{
   justify-content: center;
 }
 
-
   #nav li a {
   font-size: 14px;
 }
+
+#slide1{
+  background:url('../images/art.jpg') 60% no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 100px 0
+}
+
 
   h1{
   font-size: 20px;
