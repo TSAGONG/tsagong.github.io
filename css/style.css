@@ -1,4 +1,5 @@
-/*--------Global-----------*/
+
+/*------------------------------------Global---------------------------------*/
 
 body{
   margin: 0;
@@ -6,41 +7,8 @@ body{
   width: 100%;
 }
 
-#nav ul{
-  display: block;
-  margin: 0 auto;
-  list-style: none;
-}
-
-#nav li{
-  float:left;
-  padding-top: 27px;
-  padding-right: 5px;
-  margin-right: 2em;
-  display: block;
-}
-
-#nav li a{
-  color: black;
-  font-size: 18px;
-  text-decoration: none;
-  font-family: "Arvo";
-}
-
-
-#nav li a:hover{
-  color: black;
-  opacity: 1;
-}
-
-#nav li a:link, a:visited {
-    color: black;
-    text-align: center;
-    text-decoration: none;
-}
-
-#nav li a:hover, a:active {
-    border: 2px solid #4FFEFF;
+.navbar-brand{
+  margin-top: -11px;
 }
 
 .name{
@@ -82,41 +50,24 @@ h1{
   padding: 0;
 }
 
-.skills{
-  font-family: "Arvo";
-  font-weight: normal;
-  text-align: center;
-  color: black;
-  margin: 0;
-  padding: 0;
+/*.skills ul li{
+list-style: none;
+display: flex;
+width: 100px;
+height: 200px;
 }
+
+.skills ul li i{
+  width: 300px;
+  height: 300px;
+  list-style: none;
+}*/
+
 
 // includes the positioning of the elements on screen as well as the container of each slide.
 .center { margin: 0 auto; }
 /*.content{ margin: 0 auto; width: 960px; }
 */.clear { clear: both; }
-
-#header{
-  width: 100%;
-  height: 11%;
-  color: black;
-  position: fixed;
-  float: left;
-}
-
-#logo a{
-  color: #fff;
-  text-decoration: none;
-  color: black;
-  font-family:"Arvo";
-  text-decoration: none;
-  display: inline-flex;
-  float: right;
-}
-
-#logo a:hover{
-  color: orange;
-}
 
 #slide1, #slide2, #slide3, #slide4{
   width: 100%;
@@ -176,65 +127,89 @@ div.contact h1{
   color: white;
 }
 
-#footer{
-  background-color: #C3CFD1;
-  color: black;
-  height: 10%;
+
+div#footer{
   width: 100%;
-  display: inline-block;
 }
 
-footer p{
-  padding-top: 20px;
-  padding-left: 5px;
-  font-family: "Arvo";
-  color: black;
-  float: left;
-
-}
-
-footer .container a i{
-  padding-top: 20px;
+div#footer.container{
+  display: inline;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #e7e7e7;
   padding-right: 15px;
+}
+
+div.container p{
+  font-size: 16px;
+  float: left;
+  margin-top: 25.625px;
+  margin-bottom: 25.625px;
+  margin-left: 10px;
+}
+
+
+ .copyright {
+      color:#313131;
+      -webkit-animation:colorchange 5s infinite;
+    }
+
+
+@-webkit-keyframes colorchange {
+  0% {
+    color: #FF0000;
+  }
+  10% {
+    color: #E2571E;
+  }
+  20% {
+     color: #FF7F00;
+  }
+  30% {
+    color: #FFFF00;
+  }
+  40% {
+    color: #00FF00;
+  }
+  50% {
+    color: #96bf33;
+  }
+  60% {
+    color: #0000FF;
+  }
+  70% {
+    color: #4B0082;
+  }
+  80% {
+    color: #8B00FF;
+  }
+  90% {
+    color: #ffffff;
+  }
+  100% {
+    color: pink;
+  }
+}
+
+
+div.container .social{
   float: right;
-  color: white;
+  margin-top: 13.75px;
+  margin-bottom: 13.75px;
+  margin-right: 10px;
 }
 
-footer .container a i:hover{
-  color: orange;
+ul a i{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
-.activator{
-  width: 375px;
-  height: 275px;
-  word-spacing: 10px;
-}
+/*--------------------------------------------------Media Queries---------------------------------------*/
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
 
-.projects a{
-  margin: 0 2% 0 2%;
-}
+@media only screen and (min-width: 375px) {
 
-/*---------------Media Queries--------------*/
-
-@media screen and (min-width: 375px) {
-
-#nav li{
-  display: block;
-  display: flex;
-  justify-content: center;
-}
-
-  #nav li a {
-  font-size: 14px;
-}
 
 #slide1{
   background:url('../images/art.jpg') 60% no-repeat fixed;
@@ -249,11 +224,11 @@ footer .container a i:hover{
 
 
   h1{
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .title, .description, .description2{
-  font-size: 20px;
+  font-size: 21px;
 }
 
 
@@ -263,42 +238,40 @@ footer .container a i:hover{
   height: 100%;
 }
 
-.activator{
-  width: 250px;
-  height: 150px;
-  margin: 9px;
-}
-
 .email{
-  font-size: 28px;
-}
-
-footer p{
-  display: flex;
-  justify-content: center;
-}
-
-footer .container a i{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
+  font-size: 30px;
 }
 
 
-@media screen and (min-width: 550px) {
 
-
-#nav li{
-  display: block;
-  display: flex;
-  justify-content: center;
+div.container p{
+  font-size: 16px;
+  float: left;
+  margin-top: 25.625px;
+  margin-bottom: 25.625px;
+  margin-left: 10px;
 }
 
-#nav li a {
-  font-size: 12px;
+div#footer.container{
+  display: inline;
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #e7e7e7;
+  padding-right: 15px;
 }
+
+
+div.container .social{
+  float: right;
+  margin-top: 13.75px;
+  margin-bottom: 13.75px;
+  margin-right: 10px;
+}*/
+}
+
+
+@media only screen and (min-width: 550px) {
+
 
 h1{
   font-size: 25px;
@@ -306,16 +279,6 @@ h1{
 
 .title, .description, .description2{
   font-size: 25px;
-}
-
-#slide3{
-  height: 100%;
-}
-
-.activator{
-  width: 300px;
-  height: 200px;
-  margin: 9px;
 }
 
 .email{
@@ -323,28 +286,22 @@ h1{
 }
 }
 
-@media screen and (min-width: 650px) {
+@media only screen and (min-width: 650px) {
 
-#nav li a {
-  font-size: 13px;
+.nav navbar-nav{
+  font-size: 25px;
 }
 
 h1{
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .title, .description, .description2{
-  font-size: 30px;
+  font-size: 35px;
 }
 
 #slide3{
   height: 100%;
-}
-
-.activator{
-  width: 350px;
-  height: 250px;
-  margin: 9px;
 }
 
 .email{
@@ -353,37 +310,35 @@ h1{
 
 }
 
-@media screen and (min-width: 800px) {
-#nav li a {
-  font-size: 15px;
+@media only screen and (min-width: 800px) {
+
+
+.nav navbar-nav{
+  font-size: 30px;
 }
 
-h1{
+h1 {
   font-size: 35px;
 }
 
 .title, .description, .description2{
-  font-size: 32px;
+  font-size: 35px;
 }
 
 #slide3{
   height: 100%;
-}
-
-.activator{
-  width: 350px;
-  height: 250px;
-  margin: 9px;
 }
 
 .email{
   font-size: 45px;
 }
 
-@media screen and (min-width: 960px) {
+}
 
-#nav li a {
-  font-size: 18px;
+@media only screen and (min-width: 960px) {
+
+.nav navbar-nav{
+  font-size: 40px;
 }
 
 h1{
@@ -398,14 +353,10 @@ h1{
   height: 100%;
 }
 
-.activator{
-  width: 410px;
-  height: 310px;
-  margin: 9px;
-}
-
 .email{
   font-size: 55px;
+}
+
 }
 
 

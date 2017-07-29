@@ -37,18 +37,11 @@ $(".email").hover(function(){
   });
 
 $(".email").hover(function(){
-  $("ul li a").css({"color": "white"});
+  $("ul li a").css({"color": "orange"});
 }, function(){
   $("ul li a").css({"color": "black"});
 });
 
-/*$(".email").hover(function(){
-  $("#footer").css({"background-color": "white"});
-});
-*/
-/*$(".email").hover(function(){
-  $("i").css({"color": "orange"});
-});*/
 
 $(".nepal").hover(function(){
     $("#slide2").css('background-image', "url('images/nepal.JPG')");
