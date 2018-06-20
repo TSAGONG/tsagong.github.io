@@ -178,6 +178,19 @@ div.container p {
   -webkit-animation: colorchange 5s infinite;
 }
 
+.item {
+  width: 70%;
+  height: 70%;
+}
+.item active{
+  width: 70%;
+  height: 70%;
+}
+
+#myCarousel{
+  background-color: white;
+}
+
 
 @-webkit-keyframes colorchange {
   0% {
