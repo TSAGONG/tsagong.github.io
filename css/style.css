@@ -181,6 +181,19 @@ div.container p {
 #myCarousel{
   background-color: white;
   width: 100%;
+  height: 100%;
+}
+
+.activator
+
+a.right.carousel-control{
+  background-color: none;
+  background-image: none;
+}
+
+a.left.carousel-control{
+  background-color: none;
+  background-image: none;
 }
 
 
