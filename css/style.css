@@ -178,18 +178,6 @@ div.container p {
   -webkit-animation: colorchange 5s infinite;
 }
 
-
-a.right.carousel-control{
-  background-color: none;
-  background-image: none;
-}
-
-a.left.carousel-control{
-  background-color: none;
-  background-image: none;
-}
-
-
 @-webkit-keyframes colorchange {
   0% {
     color: #FF0000;
